@@ -124,4 +124,21 @@ hr{
 	color: #F8FC3F;
 } 
 
+.list-region{
+	padding: 5px 15px 15px 0;
+	text-align: right;
+	color: #BFDCED;
+	font-size: 1.2em;
+}
 
+.list-region-name{
+	padding: 5px 15px;
+    color: #fff;
+    border-bottom: 2px solid #2E404A;
+}
+
+.list-region-name1{
+	padding: 5px 15px;
+    color: #fff;
+    /*border-bottom: 2px solid #2E404A;;*/
+}
