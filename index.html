@@ -1,160 +1,136 @@
 <!DOCTYPE HTML>
 <html>
+<meta charset="utf-8">
 
-	<head>
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/report.css">
-		<!--<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>-->
-	</head>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- <link rel="stylesheet" href="css/report.css"> -->
+</head>
 
-	<body>
-		<nav class="navbar" role="navigation">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<span class="navbar-brand">9月总裁办会考勤</span>
-				</div>
-				<div>
-					<ul class="nav navbar-nav">
-						<li class="active"><span>旷到</span></li>
-						<li class="active"><span>迟到</span></li>
-						<li class="active"><span>未签到</span></li>
-						<li class="active"><span>正常</span></li>
-						<li><span>刷新</span></li>
-						<li><span>通报</span></li>
-					</ul>
-				</div>
+<body>
+	<!-- 头部按钮区域 -->
+	<div class="row row-title">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 title"><h4>9月28日总裁办会考勤</h4></div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 title-btn">
+				<div class="active">旷到</div>
+				<div class="active">迟到</div>
+				<div class="active">未签到</div>
+				<div class="active">正常</div>
+		</div>
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-lg-offset-4 col-md-offset-1 title-btn1">
+			<div>刷新</div>
+			<div>通报</div>
+		</div>
+	</div>
+
+	<!-- 请假 -->
+	<div class="row row-contont">
+		<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 contont-title"><h4>请假</h4></div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 contont-title"><h4>12</h4></div>
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 row-title-ul">
+			<ul>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+				<li><span>张三(高健名代)</span></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 现场参会 -->
+	<div class="row row-contont">
+		<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 contont-title"><h4>现场参会</h4></div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 contont-title"><h4>122/180</h4></div>
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 row-contont-div">
+			<div>
+				<span class="row-contont-span row-span-border-kd">旷到</span>
+				<ul class="row-contont-ul row-span-kd">
+					<li><span>高健名</span></li>
+					<li><span>阿不力克木·阿不力米提</span></li>
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
 			</div>
-		</nav>
-		<hr>
-		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1	list-title">请假</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 list-number">12</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-name">
-				<ul class="nav navbar-nav">
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li>张三<span style="color: #F8FC3F;">(高健名)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
+			<div>
+				<span class="row-contont-span row-span-border-wqd">未签到</span>
+				<ul class="row-contont-ul row-span-wqd">
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
+			</div>
+			<div>
+				<span class="row-contont-span row-span-border-cd">迟到</span>
+				<ul class="row-contont-ul row-span-cd">
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>		
 				</ul>
 			</div>
 		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 list-title">现场参会</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 list-number">102/120</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-name">
-				<div class="row row-div">
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">未签到</div>
-					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-						<ul class="nav navbar-nav">
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row row-div1">
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">迟到</div>
-					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-						<ul class="nav navbar-nav">
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-						</ul>
-					</div>
-				</div>
+	</div>
+	<!-- 视频接入 -->
+	<div class="row">
+		<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 contont-title"><h4>视频接入</h4></div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 contont-title"><h4>102/110</h4></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 contont-title"><h5>纽约</h5></div>
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 row-contont-div row-contont1">
+			<div>
+				<span class="row-contont-span row-span-border-kd">旷到</span>
+				<ul class="row-contont-ul row-span-kd">
+					<li><span>高健名</span></li>
+					<li><span>阿不力克木·阿不力米提</span></li>
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
 			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1	list-title">视频接入</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 list-number">12/122</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-name"></div>
-		</div>
-		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 list-region">硅谷</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-region-name">
-				<div class="row row-div1">
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">迟到</div>
-					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-						<ul class="nav navbar-nav">
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-						</ul>
-					</div>
-				</div>
+			<div>
+				<span class="row-contont-span row-span-border-wqd">未签到</span>
+				<ul class="row-contont-ul row-span-wqd">
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 list-region">西雅图</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-region-name1">
-				<div class="row row-div1">
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">迟到</div>
-					<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-						<ul class="nav navbar-nav">
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-							<li><span>张三(高健名代)</span></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1	list-title">电话接入</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 list-number">12/22</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 list-name">
-				<ul class="nav navbar-nav">
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
-					<li><span>张三(高健名代)</span></li>
+			<div>
+				<span class="row-contont-span row-span-border-cd">迟到</span>
+				<ul class="row-contont-ul row-span-cd">
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>		
 				</ul>
 			</div>
 		</div>
-		<hr />
-	</body>
+	</div>
+	<div class="row row-contont">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 contont-title"><h5>西雅图</h5></div>
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 row-contont-div">
+			<div>
+				<span class="row-contont-span row-span-border-kd">旷到</span>
+				<ul class="row-contont-ul row-span-kd">
+					<li><span>高健名</span></li>
+					<li><span>阿不力克木·阿不力米提</span></li>
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 电话接入 -->
+	<div class="row row-contont">
+		<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 contont-title"><h4>电话接入</h4></div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 contont-title"><h4>12/18</h4></div>
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-7 row-contont-div">
+			<div>
+				<span class="row-contont-span row-span-border-wqd">未签到</span>
+				<ul class="row-contont-ul row-span-wqd">
+					<li><span>高健名</span></li>
+					<li><span>高健名</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
 
 </html>
