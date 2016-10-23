@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+body {
+	background:url(../img/bg.png);
+	color: #fff;
+}
+h4,h5 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #B1DCFF;
+	font-weight: bold;
+}
+h5 {
+	text-align: right;
+}
+ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.row-title {
+	border-bottom: 2px solid #2E404A;
+}
+.row-title h4 {
+	margin-left: 5%;
+}
+.title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.row-title-ul {
+	margin-top: 10px;
+}
+.row-title-ul ul{
+	padding-left: 0px;
+}
+.row-title-ul ul li {
+	margin-right: 10px;
+}
+.title-btn div{
+	margin:  12px 2px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 1.2em;
+    background: #354C6C;
+    border-radius: 5px;
+}
+
+.title-btn  div:nth-child(1) { color: #F8FC3F ; }
+.title-btn  div:nth-child(2) { color: #48C8D0 ; }
+.title-btn  div:nth-child(3) { color: #FFC57A ; }
+
+
+.title-btn  div.active {border: 1px solid #fff ; }
+.title-btn  div:nth-child(1).active { border: 1px solid #F8FC3F ; }
+.title-btn  div:nth-child(2).active { border: 1px solid #48C8D0 ; }
+.title-btn  div:nth-child(3).active { border: 1px solid #FFC57A ; }
+
+.title-btn1 div{
+	margin:  12px 2px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 1.2em;
+    background: #354C6C;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.row-contont {
+	border-bottom: 2px solid #2E404A;
+}
+.row-contont1 {
+	border-bottom: 2px solid #2E404A;
+}
+.row-contont h4 {
+	margin-left: 10%;
+}
+.row-contont-ul {
+	margin:  0 2px 10px 0px;
+	padding-left: 2px;
+	padding-top: 1px;
+}
+
+.row-contont-ul li {
+	margin:2px;
+	margin-right: 10px;
+	font-size: 1em;
+	padding-top: 5px;
+	width: 85px;
+	height: 50px;
+}
+.contont-title {
+	/*padding-bottom: 10px;*/
+}
+.row-contont-div {
+
+}
+.row-contont-div div{
+	display: inline-block;
+	width: 100%;
+}
+.row-contont-div ul {
+	/*width: calc( 100% - 50px );*/
+	margin-top: -30px;
+	margin-left: 70px;
+}
+.row-contont-span {
+	margin-top: 8px;
+	width: 60px;
+	display: block;
+	background:#354C6C;
+	border-radius: 5px;
+	text-align: center;
+	border:1px solid #FFC57A;
+	color: #FFC57A;
+	font-size: 1.2em;
+}
+
+/* 旷到 人名样式*/
+.row-span-kd {
+	color: #F8FC3F;
+}
+.row-span-border-kd {
+	border:1px solid #F8FC3F;
+	color: #F8FC3F;
+}
+/* 未签到 人名样式*/
+.row-span-wqd {
+	color: #FFC57A;
+}
+.row-span-border-wqd {
+	border:1px solid #FFC57A;
+	color: #FFC57A;
+}
+
+/* 迟到 人名样式*/
+.row-span-cd {
+	color: #48C8D0;
+}
+.row-span-border-cd {
+	border:1px solid #48C8D0;
+	color: #48C8D0;
+}
